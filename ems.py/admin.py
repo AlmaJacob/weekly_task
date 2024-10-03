@@ -1,4 +1,4 @@
-emp = []
+emp = [{'id':'2',"name":"alma","age":21,"salary":25000,"place":"ksrd","dob":"17/8/2003","password":"17/8/2003"}]
 
 def add_emp():
     id = str(input("Enter Employee ID :"))
@@ -11,7 +11,7 @@ def add_emp():
 
     name = input("Enter Employee Name :")
     age = int(input("Enter Employee Age :"))
-    salary = float(input("Enter Employee Salary :"))
+    salary = int(input("Enter Employee Salary :"))
     place = input("Enter Place :")
     dob = input("Enter Date Of Birth :")
     password = dob

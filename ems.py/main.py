@@ -1,5 +1,5 @@
-from user import login
-from emp import add_emp, emp_update, delete_emp, view_profile, edit_profile, display_emp
+from login import login
+from admin import*
 
 while True:
     print("""
@@ -10,6 +10,8 @@ while True:
     
     if choice == 1:
         f, user = login()
+        print(f)
+        print(user)
         # Admin login
         if f == 1:
             while True:
